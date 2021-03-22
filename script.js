@@ -25,10 +25,10 @@ let startTtsSpeakBtn;
 
 function setup() {
   noCanvas();
-  
-  startSttRecBtn = createButton("Start Recording");
-  startTtsSpeakBtn = createButton("Start Speaking");
-  sttTextP = createP();
+
+  startSttRecBtn = select("#recordButton");
+  startTtsSpeakBtn = select("#speechButton");
+  sttTextP = select("#recordTranscriptP");
   
   startTtsSpeakBtn.hide()
   
@@ -91,11 +91,11 @@ function toggleSpeech(e, bool = !speechToggle) {
     
     ttsSpeak.speak(ttsUtter);
     
-    startTtsSpeakBtn.html("Stop Speaking");
+    startTtsSpeakBtn.html("Stop Speech");
   } else {
     ttsSpeak.cancel();
     
-    startTtsSpeakBtn.html("Start Speaking");    
+    startTtsSpeakBtn.html("Start Speech");    
   }
 }
 

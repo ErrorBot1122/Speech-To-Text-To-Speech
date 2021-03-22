@@ -1,0 +1,19 @@
+.BPDiv {
+  position: absolute;
+  width: 100%;
+  min-height: 30px;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.144);
+}
+
+.warningDiv {
+  color: red;
+  text-align: center;
+  font-size: 0.7em;
+  margin: 2px 10px;
+}
+
+.Super-Bold {
+  font-weight: 1000;
+}
