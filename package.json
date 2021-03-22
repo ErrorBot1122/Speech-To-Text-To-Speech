@@ -1,0 +1,19 @@
+{
+  "name": "speech-to-text-to-speech-node",
+  "version": "1.0.0",
+  "description": "A Live Speech To Voice Program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErrorBot1122/Speech-To-Text-To-Speech.git"
+  },
+  "author": "Errorbot1122",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErrorBot1122/Speech-To-Text-To-Speech/issues"
+  },
+  "homepage": "https://github.com/ErrorBot1122/Speech-To-Text-To-Speech#readme"
+}
